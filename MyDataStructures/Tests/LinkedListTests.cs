@@ -26,8 +26,8 @@ public class LinkedListTests
             testList.AddFirst(number);
         }
 
-        int expectedResult = testData[testData.Length];
-        int actualResult = testList.Last.Value;
+        int expectedResult = 9;
+        int actualResult = testList.First.Value;
         Assert.Equal(expectedResult, actualResult);
     }
     
