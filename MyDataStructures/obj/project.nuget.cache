@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ddbYd6UeNdylwcqjBuQyME4lsdXz+XLejfEGg3r74ikFDnokA+84q2uzECmXCWznnxHjtSXiNdf7gnCbBGnLKw==",
+  "dgSpecHash": "6tnILCc3ga9vgRzi325gaHhPtQeOiI2nghR9NDsla0k3SZKH+mXmiHkUD5VELc8wFjiCUW6XOFMY8acXCHxZ1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\pltokkrz\\RiderProjects\\MyDataStructures\\MyDataStructures\\MyDataStructures.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\xunit\\2.9.0\\xunit.2.9.0.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\xunit.analyzers\\1.15.0\\xunit.analyzers.1.15.0.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\xunit.assert\\2.9.0\\xunit.assert.2.9.0.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\xunit.core\\2.9.0\\xunit.core.2.9.0.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\xunit.extensibility.core\\2.9.0\\xunit.extensibility.core.2.9.0.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\xunit.extensibility.execution\\2.9.0\\xunit.extensibility.execution.2.9.0.nupkg.sha512",
     "C:\\Users\\pltokkrz\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
     "C:\\Users\\pltokkrz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
     "C:\\Users\\pltokkrz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
