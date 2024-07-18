@@ -54,10 +54,12 @@ public class MyLinkedList<T>
         if (_head == null)
         {
             _head = newNode;
+            return;
         }
 
         newNode.Next = _head;
         _head.Previous = newNode;
+        _head = newNode;
     }
 
     public void AddLast(T t)

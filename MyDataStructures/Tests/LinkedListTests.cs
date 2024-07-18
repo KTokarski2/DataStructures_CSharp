@@ -5,29 +5,35 @@ namespace MyDataStructures.Tests;
 
 public class LinkedListTests
 {
-    private static int[] CreateTestArray()
-    {
-        int[] testData = new int[10];
-        for (int i = 0; i < testData.Length; i++)
-        {
-            testData[i] = i;
-        }
-
-        return testData;
-    }
+    
 
     [Fact]
     public void TestAddFirst()
     {
-        int[] testData = CreateTestArray();
+        int[] testData = { 0, 1, 2, 3 };
         MyLinkedList<int> testList = new MyLinkedList<int>();
         foreach (var number in testData)
         {
             testList.AddFirst(number);
         }
 
-        int expectedResult = 9;
+        int expectedResult = 3;
         int actualResult = testList.First.Value;
+        Assert.Equal(expectedResult, actualResult);
+    }
+
+    [Fact]
+    public void TestAddLast()
+    {
+        int[] testData = { 0, 1, 2, 3 };
+        MyLinkedList<int> testList = new MyLinkedList<int>();
+        foreach (var number in testData)
+        {
+            testList.AddLast(number);
+        }
+
+        int expectedResult = 3;
+        int actualResult = testList.Last.Value;
         Assert.Equal(expectedResult, actualResult);
     }
     
