@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ddbYd6UeNdylwcqjBuQyME4lsdXz+XLejfEGg3r74ikFDnokA+84q2uzECmXCWznnxHjtSXiNdf7gnCbBGnLKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pltokkrz\\RiderProjects\\MyDataStructures\\MyDataStructures\\MyDataStructures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\pltokkrz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
