@@ -69,6 +69,7 @@ public class MyLinkedList<T>
         if (_head == null)
         {
             _head = newNode;
+            return;
         }
 
         Node lastNode = GetLastNode();
@@ -86,5 +87,63 @@ public class MyLinkedList<T>
 
         return node;
     }
-    
+
+    public T GetAt(int index)
+    {
+        if (index < 0 || index >= Count)
+        {
+            throw new ArgumentOutOfRangeException(nameof(index));
+        }
+
+        return Get(_head, index, 0);
+    }
+
+    private T Get(Node node, int targetIndex, int currentIndex)
+    {
+        if (currentIndex == targetIndex)
+        {
+            return node.Value;
+        }
+
+        return Get(node.Next, targetIndex, currentIndex + 1);
+    }
+
+    public void RemoveAt(int index)
+    {
+        if (index < 0 || index >= Count)
+        {
+            throw new ArgumentOutOfRangeException(nameof(index));
+            
+        }
+        Remove(_head, index, 0);
+        Count--;
+    }
+
+    private void Remove(Node node, int targetIndex, int currentIndex)
+    {
+        if (currentIndex == targetIndex)
+        {
+            if (node.Previous == null)
+            {
+                _head = node.Next;
+                if (_head != null)
+                {
+                    _head.Previous = null;
+                }
+            }
+            else if (node.Next == null)
+            {
+                node.Previous.Next = null;
+            }
+            else
+            {
+                node.Previous.Next = node.Next;
+                node.Next.Previous = node.Previous;
+            }
+            return;
+        }
+
+        Remove(node.Next, targetIndex, currentIndex + 1);
+    }
+
 }
